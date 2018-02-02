@@ -6,8 +6,8 @@ printf("enter the number n=");
 scanf("%d",&n);
 for(i=1;i<=5;i++)
 {
-multiple=multiple*n;
+multiple=n*i;
+printf("%d\t",multiple);
 }
-printf("first 5 multiples is %d",multiple);
-return 0;
+  return 0;
 }
